@@ -25,5 +25,5 @@
 
 
 
-[15. 三数之和](solution/15. 三数之和.md)
+[15. 三数之和]([https://github.com/zhclub/leetcode/blob/master/solution/15.%20%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.md](https://github.com/zhclub/leetcode/blob/master/solution/15. 三数之和.md))
 
