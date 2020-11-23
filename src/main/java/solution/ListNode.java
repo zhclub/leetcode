@@ -28,4 +28,15 @@ public class ListNode {
     public int hashCode() {
         return Objects.hash(val, next);
     }
+
+    @Override
+    public String toString() {
+        ListNode node = this;
+        StringBuilder s = new StringBuilder();
+        for (; node != null; node = node.next) {
+            s.append(node.val);
+        }
+
+        return s.toString();
+    }
 }

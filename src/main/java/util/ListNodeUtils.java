@@ -4,7 +4,7 @@ import solution.ListNode;
 
 public class ListNodeUtils {
 
-    public ListNode generateListNode(int[] nums) {
+    public static ListNode generateListNode(int[] nums) {
 
         ListNode head = new ListNode(nums[0]);
         ListNode current = head;

@@ -20,7 +20,22 @@ package solution;
 public class RemoveNthNodeFromEndOfList {
 
     public ListNode removeNthFromEnd(ListNode head, int n) {
+        int count = 0;
+        for (ListNode node = head; node != null; count++, node = node.next);
 
+        if (count == n) {
+            return head.next;
+        }
+
+        int i = 0;
+        for (ListNode node = head; node != null; i++, node = node.next) {
+            if (i == count - n - 1) {
+                node.next = node.next.next;
+                return head;
+            }
+        }
+
+        return null;
     }
 
 }
