@@ -1,7 +1,6 @@
 package solution;
 
 import org.junit.jupiter.api.Test;
-import solution.RemoveNthNodeFromEndOfList;
 import util.ListNodeUtils;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
