@@ -1,6 +1,6 @@
 package util;
 
-import solution.ListNode;
+import domain.ListNode;
 
 public class ListNodeUtils {
 

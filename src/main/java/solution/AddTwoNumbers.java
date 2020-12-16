@@ -1,5 +1,7 @@
 package solution;
 
+import domain.ListNode;
+
 public class AddTwoNumbers {
 
     private int carry = 0;

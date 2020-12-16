@@ -1,8 +1,7 @@
 package solution;
 
 import org.junit.jupiter.api.Test;
-import solution.AddTwoNumbers;
-import solution.ListNode;
+import domain.ListNode;
 
 import static org.junit.jupiter.api.Assertions.*;
 
