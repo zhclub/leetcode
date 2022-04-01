@@ -24,7 +24,7 @@ public class MedianOfTwoSortedArrays {
             int len2 = nums2.length;
 
             int del1 = len1 - len1 / 2 - 1;
-            int del2 = nums2.length % 2 == 0 ? len2 / 2 - 1: len2 / 2;
+            int del2 = nums2.length % 2 == 0 ? len2 / 2 - 1 : len2 / 2;
             int delLen = Math.min(del1, del2);
 
             if (delLen == 0) {

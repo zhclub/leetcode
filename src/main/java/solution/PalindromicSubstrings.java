@@ -48,7 +48,7 @@ public class PalindromicSubstrings {
     // 以L/R指针开始，分别向左右遍历，统计回文串的长度
     private int countPalindromicLength(char[] chars, int l, int r) {
         int count = 0;
-        for (; l > 0 && r < chars.length && chars[l] == chars[r]; l--, r++, count++);
+        for (; l > 0 && r < chars.length && chars[l] == chars[r]; l--, r++, count++) ;
         return count;
     }
 }

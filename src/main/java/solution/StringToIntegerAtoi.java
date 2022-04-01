@@ -5,7 +5,7 @@ import java.util.Map;
 
 /**
  * 8. 字符串转换整数 (atoi)
- *
+ * <p>
  * 请你来实现一个 atoi 函数，使其能将字符串转换成整数。
  * <p>
  * 首先，该函数会根据需要丢弃无用的开头空格字符，直到寻找到第一个非空格的字符为止。接下来的转化规则如下：
@@ -53,7 +53,7 @@ import java.util.Map;
  */
 public class StringToIntegerAtoi {
 
-    private static Map<String, String[]> table = new HashMap<>();
+    private static final Map<String, String[]> table = new HashMap<>();
 
     static {
         table.put("start", new String[]{"start", "signed", "in_number", "end"});

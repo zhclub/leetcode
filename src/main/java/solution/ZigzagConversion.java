@@ -1,8 +1,5 @@
 package solution;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * 6. Z 字形变换
  * 将一个给定字符串根据给定的行数，以从上往下、从左到右进行 Z 字形排列。
@@ -37,9 +34,9 @@ public class ZigzagConversion {
     /**
      * 按行输出，算法：
      * 首先访问 行0 中的所有字符，接着访问 行1，然后 行2，依此类推...
-     *
+     * <p>
      * 对于所有整数 k，
-     *
+     * <p>
      * 行 00 中的字符位于索引 k(2⋅numRows−2) 处;
      * 行 numRows−1 中的字符位于索引 k(2⋅numRows−2)+numRows−1 处;
      * 内部的 行i 中的字符位于索引 i(k+1)(2⋅numRows−2)−i 处;
