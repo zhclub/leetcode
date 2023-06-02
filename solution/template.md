@@ -1,4 +1,4 @@
-#### [算法实现](../src/main/java/ThreeSum.java)
+#### [算法实现](../src/main/java/solution/ThreeSum.java)
 
 **双指针**
 
