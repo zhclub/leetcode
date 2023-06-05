@@ -3,6 +3,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * <a href="https://leetcode.cn/problems/equal-row-and-column-pairs/">2352. 相等行列对</a>
+ */
 public class _2252 {
     public int equalPairs(int[][] grid) {
         int n = grid.length;
